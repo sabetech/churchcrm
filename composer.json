@@ -1,0 +1,74 @@
+{
+    "name": "churchcrm/crm",
+    "version": "4.0.3",
+    "type": "project",
+    "keywords": [
+        "church",
+        "crm"
+    ],
+    "homepage": "http://www.churchcrm.io",
+    "time": "2020-04-01 00:04:02",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Dawoud",
+            "homepage": "http://blog.dawouds.com",
+            "role": "Lead Developer"
+        },
+        {
+            "name": "Charles Crossan",
+            "homepage": "https://crossan007.dev/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@churchcrm.io",
+        "issues": "https://github.com/ChurchCRM/CRM/issues",
+        "irc": "https://gitter.im/ChurchCRM/CRM",
+        "source": "https://github.com/ChurchCRM/CRM",
+        "docs": "https://github.com/ChurchCRM/CRM/wiki"
+    },
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+    "require": {
+        "drewm/mailchimp-api": "^2.5",
+        "slim/slim": "3.9.2",
+        "slim/php-view": "2.2",
+        "monolog/monolog": "^1.17",
+        "knplabs/github-api": "~1.4",
+        "propel/propel": "~2.0@dev",
+        "setasign/fpdf": "1.8.1",
+        "phpmailer/phpmailer": "6.0.*",
+        "verot/class.upload.php": "dev-master",
+        "ifsnop/mysqldump-php": "2.*",
+        "php-http/message": "1.6.0",
+        "geocoder-php/google-maps-provider": "4.2.0",
+        "geocoder-php/bing-maps-provider": "4.0.0",
+        "mustache/mustache": "~2.5",
+        "nexmo/client": "@beta",
+        "slim/http-cache": "^0.4.0",
+        "azuyalabs/yasumi": "^1.8",
+        "defuse/php-encryption": "^2.2",
+        "pragmarx/google2fa": "^6.1",
+        "endroid/qr-code": "^3.6",
+        "symfony/yaml": "^3.4"
+    },
+    "autoload": {
+        "classmap": [
+            "ChurchCRM/"
+        ],
+        "psr-4": {
+            "\\": "bin/",
+            "ChurchCRM\\": "ChurchCRM/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "url": "https://packagist.org",
+            "type": "composer"
+        }
+    }
+}

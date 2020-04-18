@@ -1,0 +1,3473 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: ChurchCRM\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: 
+msgid "Cannot execute query."
+msgstr "Невозможно выполнить запрос."
+
+#: 
+msgid "Delete"
+msgstr "Удалить"
+
+#: 
+msgid "Cancel"
+msgstr "Отмена"
+
+#: 
+msgid "Save"
+msgstr "Сохранить"
+
+#: 
+msgid "Unassigned"
+msgstr "Не назначен"
+
+#: 
+msgid "None"
+msgstr "Ни один"
+
+#: 
+msgid "City"
+msgstr "Город"
+
+#: 
+msgid "State"
+msgstr "Область"
+
+#: 
+msgid "Country"
+msgstr "Страна"
+
+#: 
+msgid "Phone"
+msgstr "Телефон"
+
+#: 
+msgid "Email"
+msgstr "е-мейл"
+
+#: 
+msgid "Credit Card"
+msgstr "Кредитная карта"
+
+#: 
+msgid "Backup Database"
+msgstr "Резервное копирование базы данных"
+
+#: 
+msgid "This tool will assist you in manually backing up the ChurchCRM database."
+msgstr "Этот инструмент поможет вам вручную сделать резервное копирования базы данных."
+
+#: 
+msgid "You should make a manual backup at least once a week unless you already have a regular backup procedule for your systems."
+msgstr "Вы должны сделать ручное резервное копирование по крайней мере, один раз в неделю, если у вас уже есть регулярное создание резервных копий procedule для ваших систем."
+
+#: 
+msgid "After you download the backup file, you should make two copies. Put one of them in a fire-proof safe on-site and the other in a safe location off-site."
+msgstr "После загрузки файл резервной копии, вы должны сделать две копии. Положите одну из них в несгораемый сейф на месте, и другой в безопасном месте вне."
+
+#: 
+#, fuzzy
+msgid "Select archive type"
+msgstr "Выберите Тип архива"
+
+#: 
+msgid "Encrypt backup file with a password?"
+msgstr "Зашифровать файл резервной копии с паролем?"
+
+#: 
+#, fuzzy
+msgid "Re-type Password"
+msgstr "Введите пароль еще раз"
+
+#: 
+msgid "Batch Winner Entry"
+msgstr "Победитель пакетный ввод"
+
+#: 
+msgid "Winner"
+msgstr "Победитель"
+
+#: 
+msgid "Price"
+msgstr "Цена"
+
+#: 
+msgid "Enter Winners"
+msgstr "Введите победителей"
+
+#: 
+msgid "CSV Export"
+msgstr "CSV экспорт"
+
+#: 
+#, fuzzy
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: 
+msgid "Required"
+msgstr "Не требуется"
+
+#: 
+#, fuzzy
+msgid "First Name"
+msgstr "Имя"
+
+#: 
+#, fuzzy
+msgid "Middle Name"
+msgstr "Второе имя"
+
+#: 
+#, fuzzy
+msgid "Zip"
+msgstr "Страна"
+
+#: 
+#, fuzzy
+msgid "Envelope"
+msgstr "Конверт"
+
+#: 
+#, fuzzy
+msgid "Work/Other Email"
+msgstr "Работа / Другая Email"
+
+#: 
+#, fuzzy
+msgid "Membership Date"
+msgstr "Членство Дата"
+
+#: 
+#, fuzzy
+msgid "Birth / Anniversary Date"
+msgstr "Рождения / Юбилей Дата"
+
+#: 
+#, fuzzy
+msgid "Age / Years Married"
+msgstr "Возраст / лет замужем"
+
+#: 
+#, fuzzy
+msgid "Family Role"
+msgstr "Роль семьи"
+
+#: 
+#, fuzzy
+msgid "Depends whether using person or family output method"
+msgstr "Зависит ли с помощью человека или выходной семья метод"
+
+#: 
+msgid "Custom Person Fields"
+msgstr "Пользовательские лицо Поля"
+
+#: 
+msgid "Custom Family Fields"
+msgstr "Пользовательские Семья Поля"
+
+#: 
+msgid "Filters"
+msgstr "Фильтры"
+
+#: 
+#, fuzzy
+msgid "Records to export"
+msgstr "Записи для экспорта"
+
+#: 
+msgid "Based on filters below.."
+msgstr "На основании списка ниже .."
+
+#: 
+msgid "People in Cart (filters ignored)"
+msgstr "Люди в корзину (фильтры игнорируются)"
+
+#: 
+msgid "Use Ctrl Key to select multiple"
+msgstr "Используйте клавишу Ctrl, чтобы выбрать несколько"
+
+#: 
+msgid "Don't Filter"
+msgstr "Не Фильтр"
+
+#: 
+msgid "Male"
+msgstr "Муж"
+
+#: 
+msgid "Female"
+msgstr "Жен"
+
+#: 
+#, fuzzy
+msgid "Group Membership"
+msgstr "Членство в группах"
+
+#: 
+msgid "From:"
+msgstr "C:"
+
+#: 
+msgid "To:"
+msgstr "кому"
+
+#: 
+#, fuzzy
+msgid "Birthday Date"
+msgstr "День рождения Дата"
+
+#: 
+#, fuzzy
+msgid "Anniversary Date"
+msgstr "Годовщина Дата"
+
+#: 
+msgid "Output Method:"
+msgstr "Метод вывода:"
+
+#: 
+msgid "CSV Individual Records"
+msgstr "CSV отдельных записей"
+
+#: 
+msgid "CSV Combine Families"
+msgstr "CSV комбинат семей"
+
+#: 
+msgid "Add Individuals to Cart"
+msgstr "Добавить Лица в корзину"
+
+#: 
+msgid "Skip records with incomplete mail address"
+msgstr "Перейти записи с неполным почты"
+
+#: 
+msgid "Create File"
+msgstr "Создать файл"
+
+#: 
+msgid "No file selected for upload."
+msgstr "Файл не выбран для загрузки."
+
+#: 
+msgid "Total number of rows in the CSV file:"
+msgstr "Общее количество строк в файле CSV:"
+
+#: 
+msgid "Ignore this Field"
+msgstr "Игнорировать этот поле"
+
+#: 
+msgid "Title"
+msgstr "Название"
+
+#: 
+msgid "Suffix"
+msgstr "Суффикс"
+
+#: 
+msgid "Gender"
+msgstr "Пол"
+
+#: 
+msgid "Donation Envelope"
+msgstr "Пожертвование Конверт"
+
+#: 
+msgid "Home Phone"
+msgstr "Домашний телефон"
+
+#: 
+msgid "Work Phone"
+msgstr "Рабочий телефон"
+
+#: 
+msgid "Mobile Phone"
+msgstr "Мобильный"
+
+#: 
+msgid "Work / Other Email"
+msgstr "Работа / Другая Email"
+
+#: 
+msgid "Birth Date"
+msgstr "Дата рождения"
+
+#: 
+msgid "Wedding Date"
+msgstr "Дата свадьбы"
+
+#: 
+msgid "Ignore first CSV row (to exclude a header)"
+msgstr "Игнорировать первый CSV строку (чтобы исключить заголовок)"
+
+#: 
+msgid "Make Family records based on last name and address"
+msgstr "Сделать семейные записи, основанные на фамилию и адрес"
+
+#: 
+msgid "Patriarch"
+msgstr "Патриарх"
+
+#: 
+msgid "Matriarch"
+msgstr "Матриарх"
+
+#: 
+msgid "Family Type: used with Make Family records... option above"
+msgstr "Семья Тип: использованный с замыкающими Family Records ... вариант выше"
+
+#: 
+msgid "NOTE: Separators (dashes, etc.) or lack thereof do not matter"
+msgstr "ПРИМЕЧАНИЕ: Сепараторы (тире и т.д.) или их отсутствие не имеет значения"
+
+#: 
+msgid "Default country if none specified otherwise"
+msgstr "Страна по умолчанию, если ничего не указано иное"
+
+#: 
+msgid "Classification"
+msgstr "Классификация"
+
+#: 
+msgid "Perform Import"
+msgstr "Выполните импорт"
+
+#: 
+msgid "ERROR: the uploaded CSV file no longer exists!"
+msgstr "ОШИБКА: загружено CSV файл больше не существует!"
+
+#: 
+msgid "Data Cleared Successfully!"
+msgstr "Данные Снят успешно!"
+
+#: 
+msgid "Upload CSV File"
+msgstr "Загрузить файл CSV"
+
+#: 
+msgid "Clear Persons and Families"
+msgstr "Очистить лиц и семей,"
+
+#: 
+msgid "Warning!  Do not select this option if you plan to add to an existing database.<br/>"
+msgstr "Внимание! Не выбирайте эту опцию, если вы планируете добавить к существующей базе данных. <br/>"
+
+#: 
+msgid "Use only if unsatisfied with initial import.  All person and member data will be destroyed!"
+msgstr "Используйте только если удовлетворены первоначального импорта. Все лицо и члены данные будут уничтожены!"
+
+#: 
+msgid "Data import successful."
+msgstr "Импорт данных успешным."
+
+#: 
+msgid "persons were imported"
+msgstr "человек были импортированы"
+
+#: 
+msgid "Canvass Automation"
+msgstr "Canvass Автоматизация"
+
+#: 
+msgid "Not confirmed."
+msgstr "Не подтверждено."
+
+#: 
+msgid "Canvassers"
+msgstr "Агитаторов"
+
+#: 
+msgid "BraveCanvassers"
+msgstr "BraveCanvassers"
+
+#: 
+msgid "Cleared all canvasser assignments."
+msgstr "Снят все задания представитель фирмы."
+
+#: 
+msgid "Set Ok To Canvass for all families."
+msgstr "Установите кнопку ОК, чтобы полотно для всех семей."
+
+#: 
+msgid "Disabled Ok To Canvass for all families."
+msgstr "Инвалиды ОК, чтобы полотно для всех семей."
+
+#: 
+msgid "ClearAllOkToCanvass button not confimed."
+msgstr "Кнопка ClearAllOkToCanvass не confimed."
+
+#: 
+msgid "Set default fiscal year"
+msgstr "Установить по умолчанию финансовый год"
+
+#: 
+msgid "Check to confirm"
+msgstr "Проверьте, чтобы подтвердить"
+
+#: 
+msgid "Assign Canvassers"
+msgstr "Назначение агитаторов"
+
+#: 
+msgid "Assign To Non Pledging"
+msgstr "Связать лицам, не являющимся по объявлению взносов"
+
+#: 
+msgid "Clear Canvasser Assignments"
+msgstr "Очистить представитель фирмы Задания"
+
+#: 
+msgid "Enable Canvass for All Families"
+msgstr "Включить полотно для всех семей"
+
+#: 
+msgid "Disable Canvass for All Families"
+msgstr "Отключить полотно для всех семей"
+
+#: 
+msgid "Briefing Sheets"
+msgstr "Брифинг Листы"
+
+#: 
+msgid "Generate a PDF containing briefing sheets for all Families, sorted by canvasser."
+msgstr "Создание PDF, содержащий информационные листы для всех семей, отсортированных по представитель фирмы."
+
+#: 
+msgid "Progress Report"
+msgstr "Отчет о проделанной работе"
+
+#: 
+msgid "Summary Report"
+msgstr "Краткий отчет"
+
+#: 
+msgid "Not Interested Report"
+msgstr "Не интересует Сообщить"
+
+#: 
+msgid " Canvass Input for the "
+msgstr " Canvass Вход для "
+
+#: 
+#, fuzzy
+msgid "Canvasser"
+msgstr "Представитель фирмы"
+
+#: 
+msgid "Positive"
+msgstr "Раствор положительного контроля"
+
+#: 
+msgid "Critical"
+msgstr "Необходимые"
+
+#: 
+msgid "Insightful"
+msgstr "Проницательный"
+
+#: 
+msgid "Financial"
+msgstr "Финансы"
+
+#: 
+msgid "Suggestions"
+msgstr "намеки"
+
+#: 
+msgid "Not Interested"
+msgstr "Не интересует"
+
+#: 
+msgid "Why Not Interested?"
+msgstr "Почему не заинтересованы?"
+
+#: 
+msgid "Add Cart to Event"
+msgstr "Добавить корзину Событие"
+
+#: 
+#, fuzzy
+msgid "Select the event to which you would like to add your cart"
+msgstr "Выберите событие, к которому вы хотели бы добавить вашу корзину"
+
+#: 
+msgid "OR"
+msgstr "ИЛИ"
+
+#: 
+msgid "Add New Event"
+msgstr "Добавить событие"
+
+#: 
+msgid "Your cart is empty!"
+msgstr "Ваша корзина пуста!"
+
+#: 
+msgid "No family name entered!"
+msgstr "Без названия семья не введены!"
+
+#: 
+msgid "Add Cart to Family"
+msgstr "Добавить корзину, чтобы семьи"
+
+#: 
+msgid "Name"
+msgstr "Название"
+
+#: 
+msgid "Assign Role"
+msgstr "Связать роль"
+
+#: 
+msgid "Already in a family"
+msgstr "Уже в семье"
+
+#: 
+msgid "Create new family"
+msgstr "Создать новую семью"
+
+#: 
+msgid "If adding a new family, enter data below."
+msgstr "При добавлении нового семейства, введите данные ниже."
+
+#: 
+#, fuzzy
+msgid "Use address/contact data from"
+msgstr "Используйте адрес / данные контактов из"
+
+#: 
+msgid "Only the new data below"
+msgstr "Только новые данные ниже"
+
+#: 
+msgid "(Use the textbox for countries other than US and Canada)"
+msgstr "(Используйте текстовое поле для других стран, чем США и Канады)"
+
+#: 
+msgid "Do not auto-format"
+msgstr "Не Авто-формат"
+
+#: 
+msgid "Add to Family"
+msgstr "Добавить в семьи"
+
+#: 
+msgid "Add Cart to Group"
+msgstr "Добавить корзину Группе"
+
+#: 
+#, fuzzy
+msgid "Select the group to which you would like to add your cart"
+msgstr "Выберите группу, в которую вы хотели бы добавить корзина"
+
+#: 
+#, fuzzy
+msgid "Select Group"
+msgstr "Выберите группу"
+
+#: 
+msgid "No Group Selected"
+msgstr "Нет Группа Выбранный"
+
+#: 
+msgid "Add to Group"
+msgstr "Добавить в группу "
+
+#: 
+msgid "View Your Cart"
+msgstr "Просмотр Ваша корзина"
+
+#: 
+msgid "You have no items in your cart."
+msgstr "У вас нет товаров в корзине."
+
+#: 
+msgid "Back to Menu"
+msgstr "Вернуться к меню"
+
+#: 
+msgid "Empty Cart"
+msgstr "Очистить корзину"
+
+#: 
+msgid "Empty Cart to Group"
+msgstr "Очистить корзину Группе"
+
+#: 
+msgid "Empty Cart to Family"
+msgstr "Очистить корзину для семьи"
+
+#: 
+msgid "Empty Cart to Event"
+msgstr "Очистить корзину Событие"
+
+#: 
+msgid "Map Cart"
+msgstr "Карта Корзина"
+
+#: 
+msgid "Name Tags"
+msgstr "Теги имен"
+
+#: 
+msgid "Email Cart"
+msgstr "Email Корзина"
+
+#: 
+msgid "Email (BCC)"
+msgstr "E-mail (BCC)"
+
+#: 
+msgid "Create Directory From Cart"
+msgstr "Создать каталог из корзины"
+
+#: 
+msgid "Generate Labels"
+msgstr "Создание меток"
+
+#: 
+msgid "Bulk Mail Presort"
+msgstr "Массовые рассылки Presort"
+
+#: 
+msgid "Quiet Presort"
+msgstr "Тихий Presort"
+
+#: 
+msgid "Your cart contains"
+msgstr "Ваша корзина содержит"
+
+#: 
+msgid "persons from"
+msgstr "человек из"
+
+#: 
+msgid "Remove"
+msgstr "Удалять"
+
+#: 
+msgid "Yes"
+msgstr "Да "
+
+#: 
+msgid "No"
+msgstr "Нет"
+
+#: 
+msgid "Event Checkin"
+msgstr "Событие заезда"
+
+#: 
+#, fuzzy
+msgid "Select the event to which you would like to check people in for"
+msgstr "Выберите событие, к которому вы хотели бы проверить людей в течение"
+
+#: 
+msgid "Select Event"
+msgstr "Выберите событие"
+
+#: 
+msgid "Add Visitor"
+msgstr "Добавить Посетитель"
+
+#: 
+msgid "CheckIn"
+msgstr "Регистрация"
+
+#: 
+msgid "CheckOut"
+msgstr "Проверить"
+
+#: 
+msgid "Checked In Time"
+msgstr "Проверено In Time"
+
+#: 
+msgid "Checked In By"
+msgstr ", Зафиксированных"
+
+#: 
+msgid "Checked Out Time"
+msgstr "Выдан Время"
+
+#: 
+msgid "Checked Out By"
+msgstr "Извлечен"
+
+#: 
+msgid "Action"
+msgstr "Действие"
+
+#: 
+msgid "No Attendees Assigned to Event"
+msgstr "Нет Участники назначенного событию"
+
+#: 
+msgid " of the"
+msgstr " из"
+
+#: 
+msgid "(No assigned family)"
+msgstr "(Нет присвоена серия)"
+
+#: 
+msgid "Convert Individuals to Families"
+msgstr "Преобразование Лица семьям"
+
+#: 
+msgid "Convert Next"
+msgstr "Преобразование Далее"
+
+#: 
+msgid "Convert All"
+msgstr "Конвертировать все"
+
+#: 
+msgid "Deposit Slip Number: "
+msgstr "Депозит номер накладной: "
+
+#: 
+msgid "Close deposit slip (remember to press Save)"
+msgstr "Закрыть квитанции (не забудьте нажать Сохранить)"
+
+#: 
+msgid "Deposit Slip Report"
+msgstr "Квитанции Сообщить"
+
+#: 
+msgid "Important note: failed transactions will be deleted permanantly when the deposit slip is closed."
+msgstr "Важное замечание: не удалось сделки будут удалены них постоянно, когда квитанции закрыт."
+
+#: 
+msgid "Payments on this deposit slip:"
+msgstr "Выплаты по этой квитанции:"
+
+#: 
+msgid "Import eGive"
+msgstr "Импорт eGive"
+
+#: 
+msgid "Add Payment"
+msgstr "Оплатить"
+
+#: 
+msgid "Load Authorized Transactions"
+msgstr "Груза, разрешенной Сделки"
+
+#: 
+msgid "Run Transactions"
+msgstr "Запуск Сделки"
+
+#: 
+msgid "Directory reports"
+msgstr "Отчеты Каталог"
+
+#: 
+msgid "Select classifications to include"
+msgstr "Выберите классификации включает"
+
+#: 
+msgid "Which role is the head of household?"
+msgstr "Какую роль это глава семьи?"
+
+#: 
+msgid "Which role is the spouse?"
+msgstr "Какую роль это супруг?"
+
+#: 
+msgid "Which role is a child?"
+msgstr "Какую роль это ребенок?"
+
+#: 
+#, fuzzy
+msgid "Information to Include"
+msgstr "Информация, включает в себя"
+
+#: 
+msgid "Address"
+msgstr "Адрес"
+
+#: 
+msgid "Birthday"
+msgstr "Дата рождения"
+
+#: 
+msgid "Family Home Phone"
+msgstr "Дом Телефон"
+
+#: 
+msgid "Family Work Phone"
+msgstr "Семья Рабочий телефон"
+
+#: 
+msgid "Family Cell Phone"
+msgstr "Семья сотовый телефон"
+
+#: 
+msgid "Family Email"
+msgstr "Семья Email"
+
+#: 
+msgid "Personal Home Phone"
+msgstr "Личная Домашний телефон"
+
+#: 
+msgid "Personal Work Phone"
+msgstr "Личная Рабочий телефон"
+
+#: 
+msgid "Personal Cell Phone"
+msgstr "Личная сотовый телефон"
+
+#: 
+msgid "Personal Email"
+msgstr "Личная Email"
+
+#: 
+msgid "Personal Work/Other Email"
+msgstr "Персональная работа / Другое E-mail"
+
+#: 
+msgid "Photos"
+msgstr "Фотографии"
+
+#: 
+#, fuzzy
+msgid "Number of Columns"
+msgstr "Количество колонок"
+
+#: 
+#, fuzzy
+msgid "Paper Size"
+msgstr "Размер Бумаги"
+
+#: 
+#, fuzzy
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: 
+#, fuzzy
+msgid "Title page"
+msgstr "Название страницы:"
+
+#: 
+msgid "Use Title Page"
+msgstr "Используйте титульный лист"
+
+#: 
+msgid "Church Name"
+msgstr "Церковь Имя"
+
+#: 
+msgid "Disclaimer"
+msgstr "Правовая информация "
+
+#: 
+msgid "Create Directory"
+msgstr "Создать каталог"
+
+#: 
+msgid "Donated Item Editor"
+msgstr "Досталось редактора элементов"
+
+#: 
+msgid "Save and Add"
+msgstr "Сохранить и добавить"
+
+#: 
+#, fuzzy
+msgid "Item"
+msgstr "Пункт"
+
+#: 
+#, fuzzy
+msgid "Multiple items"
+msgstr "Несколько пунктов"
+
+#: 
+msgid "Sell to everyone"
+msgstr "Продать все"
+
+#: 
+#, fuzzy
+msgid "Estimated Price"
+msgstr "Ориентировочная цена"
+
+#: 
+msgid "Multiple"
+msgstr "Выбор нескольких элементов"
+
+#: 
+#, fuzzy
+msgid "Final Price"
+msgstr "Окончательная цена"
+
+#: 
+msgid "Go"
+msgstr "Дальше"
+
+#: 
+msgid "Description"
+msgstr "Описание"
+
+#: 
+msgid "Donation Fund Editor"
+msgstr "Пожертвование Фонд редактор"
+
+#: 
+msgid "Are you sure you want to delete this fund?"
+msgstr "Вы уверены, что хотите удалить этот фонд?"
+
+#: 
+msgid "Invalid fields or selections. Changes not saved! Please correct and try again!"
+msgstr "Недействительные поля или выбора. Изменения не сохранены! Пожалуйста, исправьте и попробуйте еще раз!"
+
+#: 
+msgid "No funds have been added yet"
+msgstr "Никакие средства не были добавлены еще"
+
+#: 
+msgid "Active"
+msgstr "Активен"
+
+#: 
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: 
+msgid "Add New Fund"
+msgstr "Добавить новый фонд"
+
+#: 
+msgid "Church Event Editor"
+msgstr "Церковь редакторе событий"
+
+#: 
+msgid "Edit Event Types"
+msgstr "Типы Изменить событие"
+
+#: 
+msgid "Edit Event Type"
+msgstr "Редактировать Тип события"
+
+#: 
+msgid "Event Type"
+msgstr "Тип события"
+
+#: 
+msgid "Save Name"
+msgstr "Сохранить Имя"
+
+#: 
+#, fuzzy
+msgid "Recurrence Pattern"
+msgstr "Recurrance Pattern"
+
+#: 
+msgid "Attendance Counts"
+msgstr "Посещений Графы"
+
+#: 
+msgid "Family"
+msgstr "Семья"
+
+#: 
+msgid "Type"
+msgstr "Тип"
+
+#: 
+msgid "Fiscal Year"
+msgstr "Отчетный год"
+
+#: 
+msgid "Amount"
+msgstr "Количество"
+
+#: 
+msgid "Fund"
+msgstr "Фонд"
+
+#: 
+msgid "Bank"
+msgstr "Банк:    "
+
+#: 
+msgid "Month"
+msgstr "Mесяц"
+
+#: 
+msgid "Year"
+msgstr "Год"
+
+#: 
+msgid "Edit"
+msgstr "Редактировать"
+
+#: 
+#, fuzzy
+msgid "Message"
+msgstr "Сообщение"
+
+#: 
+msgid "Event Attendees"
+msgstr "Участники мероприятия"
+
+#: 
+msgid "Event Nonattendees"
+msgstr "Событие Nonattendees"
+
+#: 
+msgid "Event Guests"
+msgstr "Гости события"
+
+#: 
+msgid "Back to Report Menu"
+msgstr "Вернуться к Пожаловаться Меню"
+
+#: 
+msgid "There "
+msgstr "Вот об этом (Вот) "
+
+#: 
+msgid "Event Title"
+msgstr "Событие Название"
+
+#: 
+msgid "Event Date"
+msgstr "Дата Событие"
+
+#: 
+msgid "Generate Report"
+msgstr "Создать отчет"
+
+#: 
+msgid "Attending Members"
+msgstr "Посещение Пользователи"
+
+#: 
+msgid "Non-Attending Members"
+msgstr "Не посещающих Пользователи"
+
+#: 
+msgid "Guests"
+msgstr "Гости"
+
+#: 
+msgid "There are no events in this category"
+msgstr "Там не было никаких событий в этой категории"
+
+#: 
+msgid "There are no Records"
+msgstr "Там нет записей"
+
+#: 
+msgid "Editing Event ID: "
+msgstr "Редактирование события: "
+
+#: 
+msgid " errors. Please see below"
+msgstr " Ошибки. Пожалуйста, смотрите ниже"
+
+#: 
+msgid "Items with a "
+msgstr "Элементы с "
+
+#: 
+msgid " are required"
+msgstr " требуется"
+
+#: 
+#, fuzzy
+msgid "Event Desc"
+msgstr "Событие Описание изделия"
+
+#: 
+msgid "No Attendance counts recorded"
+msgstr "Нет посещений счету не записаны"
+
+#: 
+msgid "Attendance Notes: "
+msgstr "Посещений Примечания: "
+
+#: 
+#, fuzzy
+msgid "Event Sermon"
+msgstr "Проповедь события"
+
+#: 
+#, fuzzy
+msgid "Event Status"
+msgstr "Статус события"
+
+#: 
+msgid "EVENT TYPE NAME"
+msgstr "Название события ТИП"
+
+#: 
+msgid "Sundays"
+msgstr "По воскресеньям"
+
+#: 
+msgid "Mondays"
+msgstr "По понедельникам"
+
+#: 
+msgid "Tuesdays"
+msgstr "По вторникам"
+
+#: 
+msgid "Wednesdays"
+msgstr "Средам"
+
+#: 
+msgid "Thursdays"
+msgstr "Четвергам"
+
+#: 
+msgid "Fridays"
+msgstr "Пятницам"
+
+#: 
+msgid "Saturdays"
+msgstr "По субботам"
+
+#: 
+msgid "ATTENDANCE COUNTS"
+msgstr "УЧАСТНИКИ COUNTS"
+
+#: 
+msgid "Add Event Type"
+msgstr "Добавить Тип события"
+
+#: 
+msgid "Custom Family Fields Editor"
+msgstr "Пользовательские Семья Fields Editor"
+
+#: 
+msgid "Default Option"
+msgstr "По умолчанию Параметр"
+
+#: 
+msgid "Warning:  By deleting this field, you will irrevokably lose all family data assigned for this field!"
+msgstr "Внимание: При удалении этого поля, вы irrevokably потерять все семейные данных, определенных для этого местах!"
+
+#: 
+msgid "No custom Family fields have been added yet"
+msgstr "Нет таможенных Семейные поля не были добавлены еще"
+
+#: 
+msgid "Special option"
+msgstr "Специальная опция"
+
+#: 
+msgid "Security Option"
+msgstr "Вариант безопасности"
+
+#: 
+msgid "You must select a group."
+msgstr "Вы должны выбрать группу."
+
+#: 
+msgid "Edit List Options"
+msgstr "Изменить список Опции"
+
+#: 
+msgid "Help on types.."
+msgstr "Помощь по видам .."
+
+#: 
+msgid "You must enter a name"
+msgstr "Введите имя"
+
+#: 
+msgid "That field name already exists."
+msgstr "Это имя поля уже существует."
+
+#: 
+msgid "Add New Field"
+msgstr "Добавить новое поле"
+
+#: 
+msgid "Family Editor"
+msgstr "Редактор семейств"
+
+#: 
+msgid "First name must be entered"
+msgstr "Имя должно быть введено"
+
+#: 
+msgid "Invalid Year: allowable values are 1901 to 2155"
+msgstr "Неверный Год: допустимые значения от 1901 до 2155"
+
+#: 
+msgid "Invalid Birth Date."
+msgstr "Недопустимая дата рождения."
+
+#: 
+msgid "Not a valid Wedding Date"
+msgstr "Не действует Дата свадьбы"
+
+#: 
+msgid "Email is Not Valid"
+msgstr "Email не действительны"
+
+#: 
+#, fuzzy
+msgid "Ok To Canvass"
+msgstr "Хорошо, призванный выявить"
+
+#: 
+#, fuzzy
+msgid "Assign a Canvasser"
+msgstr "Назначение представитель фирмы"
+
+#: 
+#, fuzzy
+msgid "Assign a Brave Canvasser"
+msgstr "Связать храбрый представитель фирмы"
+
+#: 
+msgid "Custom Fields"
+msgstr "Настраиваемые поля"
+
+#: 
+msgid "Family Members"
+msgstr "Члены семьи"
+
+#: 
+msgid "You may create family members now or add them later.  All entries will become <i>new</i> person records."
+msgstr "Вы можете создать членов семьи сейчас или добавить их позже. Все записи станет <I> Новинка! </ I> персональных записей."
+
+#: 
+msgid "First"
+msgstr "Первый"
+
+#: 
+msgid "Middle"
+msgstr "Середина урока"
+
+#: 
+msgid "Last"
+msgstr "Последний"
+
+#: 
+msgid "Role"
+msgstr "Роль"
+
+#: 
+msgid "Day"
+msgstr "День"
+
+#: 
+msgid "Select Gender"
+msgstr "Выберите Пол"
+
+#: 
+msgid "Select Role"
+msgstr "Выберите Роль"
+
+#: 
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: 
+msgid "January"
+msgstr "Январь"
+
+#: 
+msgid "February"
+msgstr "Февраль"
+
+#: 
+msgid "March"
+msgstr "Март"
+
+#: 
+msgid "April"
+msgstr "Апрель"
+
+#: 
+msgid "May"
+msgstr "Май"
+
+#: 
+msgid "June"
+msgstr "Июнь"
+
+#: 
+msgid "July"
+msgstr "Июль"
+
+#: 
+msgid "August"
+msgstr "Август"
+
+#: 
+msgid "September"
+msgstr "Cентябрь"
+
+#: 
+msgid "October"
+msgstr "Oктябрь"
+
+#: 
+msgid "November"
+msgstr "Ноябрь"
+
+#: 
+msgid "December"
+msgstr "Декабрь"
+
+#: 
+msgid "Unk"
+msgstr "Unk"
+
+#: 
+msgid "Envelope Number"
+msgstr "Конверт Количество"
+
+#: 
+msgid "Previous Family"
+msgstr "Предыдущая Семья"
+
+#: 
+msgid "Next Family"
+msgstr "Следующая Семья"
+
+#: 
+msgid "Upload Photo"
+msgstr "Идет загрузка фото"
+
+#: 
+msgid "Delete Photo"
+msgstr "Удалить фотографию"
+
+#: 
+msgid "Pledges and Payments"
+msgstr "Объявленные и платежи"
+
+#: 
+msgid "No property assignments."
+msgstr "Нет свойства заданий."
+
+#: 
+msgid "Value"
+msgstr "Значение "
+
+#: 
+msgid "Edit Value"
+msgstr "Редактировать Значение"
+
+#: 
+#, fuzzy
+msgid "Assign a New Property"
+msgstr "Связать новое свойство"
+
+#: 
+msgid "Assign"
+msgstr "Назначить"
+
+#: 
+msgid "Date Updated"
+msgstr "Дата обновления"
+
+#: 
+msgid "Updated By"
+msgstr "Обновил"
+
+#: 
+msgid "Show Pledges"
+msgstr "Показать Обязательства"
+
+#: 
+msgid "Show Payments"
+msgstr "Показать платежи"
+
+#: 
+msgid "Update"
+msgstr "Обновить"
+
+#: 
+msgid "Pledge or Payment"
+msgstr "Залог или оплаты"
+
+#: 
+msgid "Date"
+msgstr "Дата"
+
+#: 
+msgid "NonDeductible"
+msgstr "NonDeductible"
+
+#: 
+msgid "Schedule"
+msgstr "Сроки"
+
+#: 
+msgid "Method"
+msgstr "Метод"
+
+#: 
+msgid "Comment"
+msgstr "Комментарий "
+
+#: 
+msgid "Add a new pledge"
+msgstr "Добавить новый залог"
+
+#: 
+msgid "Add a new payment"
+msgstr "Добавить новый платеж"
+
+#: 
+msgid " Canvass Entry"
+msgstr " Canvass запись"
+
+#: 
+msgid "Confirm Delete"
+msgstr "Подтвердить удаление"
+
+#: 
+msgid "Financial Reports"
+msgstr "Финансовые отчеты"
+
+#: 
+msgid "No records were returned from the previous report."
+msgstr "Нет записей были возвращены из предыдущего доклада."
+
+#: 
+msgid "Report Type:"
+msgstr "Тип отчета:"
+
+#: 
+msgid "Select Report Type"
+msgstr "Выберите Тип отчета"
+
+#: 
+msgid "Pledge Summary"
+msgstr "Залог Резюме"
+
+#: 
+#, fuzzy
+msgid "Pledge Family Summary"
+msgstr "Залог FamilySummary"
+
+#: 
+msgid "Pledge Reminders"
+msgstr "Залог Напоминания"
+
+#: 
+msgid "Voting Members"
+msgstr "Голосование Пользователи"
+
+#: 
+msgid "Giving Report (Tax Statements)"
+msgstr "Предоставление отчетного (налогового заявления)"
+
+#: 
+msgid "Zero Givers"
+msgstr "Нулевые Givers"
+
+#: 
+msgid "Individual Deposit Report"
+msgstr "Персональный отчет Депозит"
+
+#: 
+msgid "Advanced Deposit Report"
+msgstr "Расширенный Депозит Сообщить"
+
+#: 
+msgid "Next"
+msgstr "Вперёд"
+
+#: 
+#, fuzzy
+msgid "Filter by Family"
+msgstr "Фильтр по СЕМЬЯ"
+
+#: 
+msgid "Report Start Date:"
+msgstr "Сообщить Дата начала:"
+
+#: 
+msgid "Report End Date:"
+msgstr "Сообщить Дата окончания:"
+
+#: 
+msgid "Apply Report Dates To:"
+msgstr "Применить Сообщить даты, чтобы:"
+
+#: 
+msgid "Deposit Date (Default)"
+msgstr "Депозит Дата (по умолчанию)"
+
+#: 
+msgid "Payment Date"
+msgstr "Дата выплаты"
+
+#: 
+msgid "Filter by Deposit:"
+msgstr "Фильтр по Залог:"
+
+#: 
+msgid "If deposit is selected, date criteria will be ignored."
+msgstr "Если выбран депозит, критерии дата будет проигнорирована."
+
+#: 
+msgid "All deposits within date range"
+msgstr "Все вклады в пределах диапазона дат"
+
+#: 
+msgid "Filter by Payment Type:"
+msgstr "Фильтр по Тип компенсации:"
+
+#: 
+msgid "All Methods"
+msgstr "Все методы"
+
+#: 
+msgid "Check"
+msgstr "чек"
+
+#: 
+msgid "Cash"
+msgstr "Наличные"
+
+#: 
+msgid "Bank Draft"
+msgstr "Банковский чек"
+
+#: 
+msgid "eGive"
+msgstr "eGive"
+
+#: 
+msgid "Minimun Total Amount:"
+msgstr "График Общая сумма:"
+
+#: 
+msgid "0 - No Minimum"
+msgstr "0 - Нет Минимальный"
+
+#: 
+msgid "Other Settings"
+msgstr "Другие настройки"
+
+#: 
+msgid "Include:"
+msgstr "Включить:"
+
+#: 
+msgid "Only Payments with Pledges"
+msgstr "Оплата производится только залогами"
+
+#: 
+msgid "All Payments"
+msgstr "Все платежи"
+
+#: 
+msgid "Generate:"
+msgstr "Создание:"
+
+#: 
+msgid "Only Families with unpaid pledges"
+msgstr "Семьи только с невыплаченных взносов"
+
+#: 
+msgid "All Families"
+msgstr "Все семьи"
+
+#: 
+msgid "Report Heading:"
+msgstr "Сообщить Рубрика:"
+
+#: 
+msgid "Graphic"
+msgstr "Графика"
+
+#: 
+msgid "Church Address"
+msgstr "Церковь Адрес"
+
+#: 
+msgid "Blank"
+msgstr "Пустой"
+
+#: 
+msgid "Remittance Slip:"
+msgstr "Денежные переводы скольжения:"
+
+#: 
+msgid "Sort Data by:"
+msgstr "Сортировка данных по:"
+
+#: 
+msgid "Deposit"
+msgstr "Депозит"
+
+#: 
+msgid "All Data"
+msgstr "Все данные"
+
+#: 
+msgid "Moderate Detail"
+msgstr "Умеренный Деталь"
+
+#: 
+msgid "Summary Data"
+msgstr "Данные о"
+
+#: 
+msgid "CSV"
+msgstr "Основная проверка системы"
+
+#: 
+msgid "Back"
+msgstr "Назад"
+
+#: 
+msgid "Create Report"
+msgstr "Создать отчет"
+
+#: 
+msgid "Deposit Listing"
+msgstr "Депозит Листинг"
+
+#: 
+msgid "Fundraiser Listing"
+msgstr "Кампания по сбору средств Листинг"
+
+#: 
+#, fuzzy
+msgid "Date Start"
+msgstr "Дата начала"
+
+#: 
+msgid "Apply Filters"
+msgstr "Применить фильтры"
+
+#: 
+#, fuzzy
+msgid "Date End"
+msgstr "Дата окончания"
+
+#: 
+msgid "Clear Filters"
+msgstr "Очистить фильтры"
+
+#: 
+msgid "Previous Page"
+msgstr "Предыдущая страниц"
+
+#: 
+msgid "Next Page"
+msgstr "Следующая страниц"
+
+#: 
+msgid "Display:"
+msgstr "Дисплей:"
+
+#: 
+msgid "Number"
+msgstr "Номер"
+
+#: 
+msgid "Create New Fund Raiser"
+msgstr "Создать новый фонд Райзер"
+
+#: 
+msgid "Add Donated Item"
+msgstr "Добавить пожертвовал пункт"
+
+#: 
+msgid "Generate Catalog"
+msgstr "Создание каталога"
+
+#: 
+msgid "Generate Bid Sheets"
+msgstr "Создание Ставка листы"
+
+#: 
+msgid "Generate Certificates"
+msgstr "Создание сертификатов"
+
+#: 
+#, fuzzy
+msgid "Donated items for this fundraiser"
+msgstr "Донорские пункты для этого сбор средств"
+
+#: 
+msgid "Donor"
+msgstr "Донор"
+
+#: 
+msgid "Buyer"
+msgstr "Покупатель"
+
+#: 
+msgid "Sale Price"
+msgstr "Продажная цена"
+
+#: 
+msgid "Material Value"
+msgstr "Материальная ценность"
+
+#: 
+msgid "Minimum Price"
+msgstr "Минимальная цена"
+
+#: 
+msgid "Family Geographic Utilities"
+msgstr "Семейные Географические Утилиты"
+
+#: 
+msgid "Select Family:"
+msgstr "Выберите Семья:"
+
+#: 
+msgid "Maximum number of neighbors:"
+msgstr "Максимальное количество соседей:"
+
+#: 
+msgid "Maximum distance"
+msgstr "Максимальное расстояние"
+
+#: 
+msgid "Data file format:"
+msgstr "Формат файла данных:"
+
+#: 
+msgid "GPS Visualizer"
+msgstr "GPS Visualizer"
+
+#: 
+msgid "Street Atlas USA"
+msgstr "Улица Atlas США"
+
+#: 
+msgid "Include families in coordinate file:"
+msgstr "Включить семьи, в координации файл:"
+
+#: 
+msgid "Neighbor Families"
+msgstr "Сосед семьи"
+
+#: 
+msgid "Make Data File"
+msgstr "Сделайте файл данных"
+
+#: 
+msgid "Show Neighbors"
+msgstr "Показать Соседи"
+
+#: 
+msgid "Distance"
+msgstr "Расстояние"
+
+#: 
+msgid "Direction"
+msgstr "Направление"
+
+#: 
+msgid "Latitude"
+msgstr "Широта"
+
+#: 
+msgid "Longitude"
+msgstr "Долгота"
+
+#: 
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: 
+msgid "Intersect with Cart"
+msgstr "Пересечь с корзину"
+
+#: 
+msgid "Remove from Cart"
+msgstr "Удалить из корзины"
+
+#: 
+msgid "Text for Event ID: "
+msgstr "Текст для события с кодом: "
+
+#: 
+msgid "Group Editor"
+msgstr "Редактор группы"
+
+#: 
+#, fuzzy
+msgid "Type of Group"
+msgstr "Тип группы"
+
+#: 
+#, fuzzy
+msgid "Group Member Roles"
+msgstr "Роли Группа"
+
+#: 
+#, fuzzy
+msgid "Clone roles"
+msgstr "Клонов роли"
+
+#: 
+#, fuzzy
+msgid "from group"
+msgstr "от группы"
+
+#: 
+msgid "Select a group"
+msgstr "Выбор группы"
+
+#: 
+msgid "Edit Group-Specific Properties Form"
+msgstr "Edit Group-Specific Properties Форма"
+
+#: 
+#, fuzzy
+msgid "Group Roles"
+msgstr "Группа Роли"
+
+#: 
+#, fuzzy
+msgid "New Role"
+msgstr "Новая роль"
+
+#: 
+msgid "Group Listing"
+msgstr "Группа Листинг"
+
+#: 
+msgid "Submit"
+msgstr "Представлять"
+
+#: 
+msgid "Group Member Properties Editor"
+msgstr "Группа Свойства редактор"
+
+#: 
+msgid "This group currently has no properties!  You can add them in the Group Editor."
+msgstr "Эта группа в настоящее время не имеет свойств! Вы можете добавить их в редакторе Group."
+
+#: 
+msgid "Return to Person Record"
+msgstr "Вернуться к человеку записи"
+
+#: 
+msgid "Editing"
+msgstr "Редактирование"
+
+#: 
+msgid "data for member"
+msgstr "Данные для членов"
+
+#: 
+msgid "Group-Specific Properties Form Editor:"
+msgstr "Группа-специфических свойств Редактор форм:"
+
+#: 
+msgid "No properties have been added yet"
+msgstr "Нет свойства, которые были добавлены еще"
+
+#: 
+msgid "Show in"
+msgstr "Показать в"
+
+#: 
+msgid "Person View"
+msgstr "Человек Посмотреть"
+
+#: 
+msgid "Group reports"
+msgstr "Доклады Группа"
+
+#: 
+#, fuzzy
+msgid "Select the group you would like to report"
+msgstr "Выберите группу, которую вы хотели бы сообщить"
+
+#: 
+#, fuzzy
+msgid "Only cart persons?"
+msgstr "Только корзина лиц ?"
+
+#: 
+#, fuzzy
+msgid "Report Model"
+msgstr "Сообщить Модель"
+
+#: 
+msgid "Report for group and role selected"
+msgstr "Отчет по группам и роли выбран"
+
+#: 
+msgid "Report for any role in group selected"
+msgstr "Отчет за какой-либо роли в группе, выбранной"
+
+#: 
+msgid "Select which information you want to include"
+msgstr "Выберите, какую информацию вы хотите включить"
+
+#: 
+#, fuzzy
+msgid "Standard Info"
+msgstr "Стандартный информация"
+
+#: 
+msgid "Other Email"
+msgstr "Другое Email"
+
+#: 
+msgid "GroupRole"
+msgstr "GroupRole"
+
+#: 
+#, fuzzy
+msgid "Group-Specific Property Fields"
+msgstr "Группа-конкретных областях недвижимости"
+
+#: 
+msgid "Undefined"
+msgstr "Неопределенный"
+
+#: 
+msgid "Group View"
+msgstr "Вид группы"
+
+#: 
+msgid "Edit this Group"
+msgstr "Редактировать этот группу"
+
+#: 
+msgid "Delete this Group"
+msgstr "Удалить эту группу"
+
+#: 
+#, fuzzy
+msgid "Please confirm deletion of this group record"
+msgstr "Пожалуйста, подтвердите удаление этой группы записи"
+
+#: 
+msgid "This will also delete all Roles and Group-Specific Property data associated with this Group record."
+msgstr "Это приведет к удалению всех ролей и определенных групп данных объектов, связанных с этой записью группы."
+
+#: 
+msgid "Add Group Members to Cart"
+msgstr "Добавить группу Пользователей в корзину"
+
+#: 
+msgid "Map this group"
+msgstr "Карта эту группу"
+
+#: 
+msgid "Email Group"
+msgstr "Email Группа"
+
+#: 
+#, fuzzy
+msgid "Total Members"
+msgstr "Всего пользователей"
+
+#: 
+#, fuzzy
+msgid "Default Role"
+msgstr "По умолчанию Роль"
+
+#: 
+#, fuzzy
+msgid "Group-Specific Properties"
+msgstr "Групповые специфические свойства"
+
+#: 
+msgid "Disabled for this group."
+msgstr "Отключено для этой группы."
+
+#: 
+#, fuzzy
+msgid "Assigned Properties"
+msgstr "Заданными свойствами"
+
+#: 
+msgid "Group Members:"
+msgstr "Участники группы:"
+
+#: 
+msgid "Letters and Mailing Labels"
+msgstr "Письма и почтовые наклейки"
+
+#: 
+msgid "Newsletter labels"
+msgstr "Информационный бюллетень этикетки"
+
+#: 
+msgid "Confirm data labels"
+msgstr "Подтвердите метки данных"
+
+#: 
+msgid "Listing All Church Events"
+msgstr "Листинг всех церковных событий"
+
+#: 
+msgid "Select Event Types To Display"
+msgstr "Выберите типы событий, чтобы отобразить"
+
+#: 
+msgid "Display Events in Year"
+msgstr "Показать события в году"
+
+#: 
+msgid "Start Date/Time"
+msgstr "Дата начала / Время"
+
+#: 
+msgid "No Attendance Recorded"
+msgstr "Посещений не было записи"
+
+#: 
+#, fuzzy
+msgid "Attendees"
+msgstr "Участники ("
+
+#: 
+msgid " Monthly Averages"
+msgstr " Ежемесячные средние"
+
+#: 
+msgid "Invalid login or password"
+msgstr "Неверный Логин или пароль"
+
+#: 
+msgid "Too many failed logins: your account has been locked.  Please contact an administrator."
+msgstr "Слишком много неудачных попыток: ваша учетная запись была заблокирована. Пожалуйста, свяжитесь с администратором."
+
+#: 
+msgid "Please Login"
+msgstr "Пожалуйста, войдите"
+
+#: 
+msgid "Password"
+msgstr "Пароль"
+
+#: 
+msgid "Login"
+msgstr "Вход"
+
+#: 
+msgid "Envelope Manager"
+msgstr "Конверт менеджер"
+
+#: 
+msgid "Update Family Records"
+msgstr "Обновление Family Records"
+
+#: 
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: 
+msgid "Sort by"
+msgstr "Сортировать по"
+
+#: 
+msgid "Zero"
+msgstr "Ноль"
+
+#: 
+msgid "Assign starting at #"
+msgstr "Связать начиная с #"
+
+#: 
+msgid "Member Role Change"
+msgstr "Участник Роль Изменить"
+
+#: 
+#, fuzzy
+msgid "Member's Name"
+msgstr "Имя пользователя"
+
+#: 
+#, fuzzy
+msgid "Current Role"
+msgstr "Текущая роль"
+
+#: 
+msgid "Update All Family Coordinates"
+msgstr "Обновление всей семьи Координаты"
+
+#: 
+msgid "Families"
+msgstr "Семьи"
+
+#: 
+msgid "People"
+msgstr "Люди"
+
+#: 
+msgid "Reports on groups and roles"
+msgstr "Отчеты по группам и ролям"
+
+#: 
+msgid "Report on group and roles selected (it may be a multi-page PDF)."
+msgstr "Отчет о группы и роли, выбранной (это может быть многостраничный PDF)."
+
+#: 
+msgid "Generate letters and mailing labels."
+msgstr "Создание письма и почтовые наклейки."
+
+#: 
+msgid "US Address Verification Report"
+msgstr "Адрес в США доклад о проверке"
+
+#: 
+msgid "Family Name"
+msgstr "Фамилия"
+
+#: 
+msgid "Note Delete Confirmation"
+msgstr "Примечание Подтверждение удаления"
+
+#: 
+#, fuzzy
+msgid "Please confirm deletion of this note"
+msgstr "Пожалуйста, подтвердите удаление этой заметке"
+
+#: 
+msgid "Yes, delete this record"
+msgstr "Да, удалить эту запись"
+
+#: 
+msgid "(this action cannot be undone)"
+msgstr "(Это действие не может быть отменено)"
+
+#: 
+msgid "Note Editor"
+msgstr "Примечание редактора"
+
+#: 
+msgid "Private"
+msgstr "Личные"
+
+#: 
+msgid "Person"
+msgstr "Персона"
+
+#: 
+msgid "Group"
+msgstr "Группа"
+
+#: 
+msgid "Option"
+msgstr "Опции"
+
+#: 
+msgid "Warning: Removing will reset all assignments for all persons with the assignment!"
+msgstr "Внимание: удаление сбросит все задания для всех лиц с присвоением!"
+
+#: 
+msgid "Error: Duplicate"
+msgstr "Ошибка: Duplicate"
+
+#: 
+msgid "Default"
+msgstr "По умолчанию"
+
+#: 
+msgid "Duplicate name found."
+msgstr "Скопируйте имя, найденное."
+
+#: 
+msgid "Make Default"
+msgstr "Использовать по умолчанию"
+
+#: 
+msgid "Exit"
+msgstr "Выход"
+
+#: 
+msgid "Add New"
+msgstr "Добавить"
+
+#: 
+msgid "Error: A "
+msgstr "Ошибка: "
+
+#: 
+msgid " by that name already exists."
+msgstr " с тем, что имя уже существует."
+
+#: 
+msgid "Buyer Number Editor"
+msgstr "Покупатель Количество редактор"
+
+#: 
+msgid "Generate Statement"
+msgstr "Создание заявление"
+
+#: 
+msgid "Buyers for this fundraiser:"
+msgstr "Покупатели на этот сбор средств:"
+
+#: 
+msgid "Select all"
+msgstr "Выбрать все"
+
+#: 
+msgid "Select none"
+msgstr "Очистить все"
+
+#: 
+msgid "Add Buyer"
+msgstr "Добавить Покупателю"
+
+#: 
+msgid "Generate Statements for Selected"
+msgstr "Создание Заявления для выбранной"
+
+#: 
+msgid "Select"
+msgstr "Выбрать"
+
+#: 
+msgid "Custom Person Fields Editor"
+msgstr "Пользовательские лицо Fields Editor"
+
+#: 
+msgid "Warning:  By deleting this field, you will irrevokably lose all person data assigned for this field!"
+msgstr "Внимание: При удалении этого поля, вы irrevokably потерять все данные лицо, назначенное для этой области!"
+
+#: 
+msgid "No custom person fields have been added yet"
+msgstr "Нет таможенных человек поля не были добавлены еще"
+
+#: 
+msgid "Person Editor"
+msgstr "Человек редактор"
+
+#: 
+msgid "You must enter a Last Name if no Family is selected."
+msgstr "Вы должны ввести Фамилия, если не выбран Семья."
+
+#: 
+msgid "Not a valid Friend Date"
+msgstr "Не действует другу Дата"
+
+#: 
+msgid "Not a valid Membership Date"
+msgstr "Не аккаунтом Дата"
+
+#: 
+msgid "Work Email is Not Valid"
+msgstr "Работа Email не действительны"
+
+#: 
+msgid "Red text"
+msgstr "Красный текст"
+
+#: 
+msgid "indicates items inherited from the associated family record."
+msgstr "Указывает на элементы, унаследованные от соответствующего семьи записи."
+
+#: 
+#, fuzzy
+msgid "Birth Year"
+msgstr "Год рождения"
+
+#: 
+msgid "Hide Age"
+msgstr "Скрывать возраст"
+
+#: 
+msgid "Create a new family (using last name)"
+msgstr "Создать новую семью (с использованием фамилию)"
+
+#: 
+#, fuzzy
+msgid "Friend Date"
+msgstr "Друг Дата"
+
+#: 
+msgid "Not assigned"
+msgstr "Не назначен"
+
+#: 
+msgid "Printable Page"
+msgstr "Версия для печати Страница"
+
+#: 
+msgid "Delete this Record"
+msgstr "Удалить эту запись"
+
+#: 
+msgid "Make User"
+msgstr "Сделать Пользователь"
+
+#: 
+msgid "Edit User"
+msgstr "Редактирование пользователя"
+
+#: 
+msgid "No group assignments."
+msgstr "Нет Группа заданий."
+
+#: 
+msgid "No volunteer opportunity assignments."
+msgstr "Нет на общественных началах Возможность задания."
+
+#: 
+#, fuzzy
+msgid "Assign a New Volunteer Opportunity"
+msgstr "Назначьте Возможность Нью-добровольцев"
+
+#: 
+msgid "Electronic Transaction Details"
+msgstr "Электронные детали сделки"
+
+#: 
+msgid "NonDeductible amount can't be greater than total amount."
+msgstr "NonDeductible сумма не может быть больше общей суммы."
+
+#: 
+msgid "At least one fund must have a non-zero amount."
+msgstr "По крайней мере, один фонд должен иметь не нулевое значение."
+
+#: 
+msgid "Must specify non-zero check number"
+msgstr "Необходимо указать ненулевое контрольное число"
+
+#: 
+msgid "Pledge Editor"
+msgstr "Залог редактор"
+
+#: 
+msgid "Payment Editor: "
+msgstr "Оплата Редактора: "
+
+#: 
+msgid " Deposit Slip #"
+msgstr " Квитанции #"
+
+#: 
+msgid " more entries will fit."
+msgstr " больше записей будет соответствовать."
+
+#: 
+msgid "Payment Editor - Modify Existing Payment"
+msgstr "Оплата Editor - Изменить существующий платеж"
+
+#: 
+msgid "Payment Editor - New Deposit Slip Will Be Created"
+msgstr "Оплата Editor - Нью-квитанции будут созданы"
+
+#: 
+msgid "Find family->"
+msgstr "Найти на семью>"
+
+#: 
+msgid "Payment Schedule"
+msgstr "График оплаты"
+
+#: 
+msgid "Select Schedule"
+msgstr "Выберите Расписание"
+
+#: 
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: 
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+#: 
+msgid "Quarterly"
+msgstr "Ежеквартально"
+
+#: 
+msgid "Once"
+msgstr "Oднократно"
+
+#: 
+msgid "Other"
+msgstr "Другое"
+
+#: 
+msgid "Payment by"
+msgstr "Оплата"
+
+#: 
+msgid "Scan check"
+msgstr "Проверка Scan"
+
+#: 
+msgid "find family from check account #"
+msgstr "найти семью от проверки счета #"
+
+#: 
+msgid "Set default check account number for family"
+msgstr "Установите номер регистрации учетной записи по умолчанию для семьи"
+
+#: 
+msgid "Fund Name"
+msgstr "Наименование фонда"
+
+#: 
+msgid "Non-deductible amount"
+msgstr "Не уменьшающие налогооблагаемую базу количество"
+
+#: 
+msgid "Printable View"
+msgstr "Вид для печати"
+
+#: 
+msgid "Age"
+msgstr "Возраст"
+
+#: 
+#, fuzzy
+msgid "Assigned Groups"
+msgstr "Назначенные группы"
+
+#: 
+msgid "Group Name"
+msgstr "Имя Группы"
+
+#: 
+msgid "Notes:"
+msgstr "Примечание:"
+
+#: 
+msgid "Entered:"
+msgstr "Вступил:"
+
+#: 
+msgid "by"
+msgstr "по"
+
+#: 
+msgid "Property successfully assigned."
+msgstr "Недвижимость успешно установлен."
+
+#: 
+msgid " Property Assignment"
+msgstr " Назначение недвижимости"
+
+#: 
+#, fuzzy
+msgid "Assigning"
+msgstr "Назначение"
+
+#: 
+msgid "Property Delete Confirmation"
+msgstr "Недвижимость подтверждения удаления"
+
+#: 
+#, fuzzy
+msgid "Please confirm deletion of this property"
+msgstr "Пожалуйста, подтвердите удаление этой недвижимости"
+
+#: 
+msgid "Deleting this Property will also delete all assignments of this Property to any People, Family, or Group records."
+msgstr "Удаление Это свойство также удалить все задания этого свойства для любого народа, семьи или записей группы."
+
+#: 
+msgid "No, cancel this deletion"
+msgstr "Нет, отменить эту удаление"
+
+#: 
+msgid "Property Editor"
+msgstr "Редактор свойств"
+
+#: 
+#, fuzzy
+msgid "You must select a type"
+msgstr "Вы должны выбрать тип"
+
+#: 
+msgid "Select Property Type"
+msgstr "Выберите тип недвижимости"
+
+#: 
+msgid "A"
+msgstr "А"
+
+#: 
+msgid "Entering a Prompt value will allow the association of a free-form value."
+msgstr "Ввод строки значение позволит ассоциацию стоимости в свободной форме."
+
+#: 
+msgid "Property List"
+msgstr "Список недвижимости"
+
+#: 
+msgid "Add a New"
+msgstr "Добавить новые"
+
+#: 
+msgid "Property"
+msgstr "Объявление"
+
+#: 
+msgid "Prompt"
+msgstr "Запрос"
+
+#: 
+msgid "Property Type Delete Confirmation"
+msgstr "Тип недвижимости запросом на подтверждение удаления"
+
+#: 
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: 
+msgid "This property type is still being used by at least one property."
+msgstr "Это тип недвижимости все еще используется, по крайней мере, одного свойства."
+
+#: 
+msgid "If you delete this type, you will also remove all properties using"
+msgstr "Если Вы удалите этот тип, вы также удалить все свойства, используя"
+
+#: 
+msgid "it and lose any corresponding property assignments."
+msgstr "это и терять соответствующие поручения собственности."
+
+#: 
+#, fuzzy
+msgid "Please confirm deletion of this Property Type"
+msgstr "Пожалуйста, подтвердите удаление этой недвижимости Тип"
+
+#: 
+msgid "Property Type Editor"
+msgstr "Тип недвижимости редактор"
+
+#: 
+msgid "Property Type List"
+msgstr "Тип недвижимости Список"
+
+#: 
+msgid "Add a New Property Type"
+msgstr "Добавить Новый тип недвижимости"
+
+#: 
+msgid "Class"
+msgstr "Класс"
+
+#: 
+msgid "Properties"
+msgstr "Недвижимость"
+
+#: 
+msgid " Property Unassignment"
+msgstr " Недвижимость Unassignment"
+
+#: 
+msgid "Please confirm removal of this property from this"
+msgstr "Пожалуйста, подтвердите удаление этой собственности от этого"
+
+#: 
+#, fuzzy
+msgid "Unassigning"
+msgstr "Отменяете"
+
+#: 
+msgid "Yes, unassign this Property"
+msgstr "Да, отменить назначение этой недвижимости"
+
+#: 
+msgid "No, retain this assignment"
+msgstr "Нет, сохранить эту задачу"
+
+#: 
+msgid "Query Listing"
+msgstr "Запрос Листинг"
+
+#: 
+msgid "Run a Free-Text Query"
+msgstr "Запустите Free-текст запроса"
+
+#: 
+msgid "Free-Text Query"
+msgstr "Free-текст запроса"
+
+#: 
+msgid "Export Results to CSV file"
+msgstr "Экспортировать результаты в CSV файл"
+
+#: 
+msgid "Execute SQL"
+msgstr "Выполнить SQL"
+
+#: 
+msgid "An error occured: "
+msgstr "Произошла ошибка: "
+
+#: 
+msgid " record(s) returned"
+msgstr " записи (ей) вернулся"
+
+#: 
+msgid "Add Results To Cart"
+msgstr "Добавить Результаты в корзину"
+
+#: 
+msgid "Intersect Results With Cart"
+msgstr "Пересечение результаты с тележкой"
+
+#: 
+msgid "Remove Results From Cart"
+msgstr "Удалить результаты из корзины"
+
+#: 
+msgid "Return to Query Menu"
+msgstr "Вернуться к запросу меню"
+
+#: 
+msgid "Query View"
+msgstr "Query View"
+
+#: 
+msgid "This value is required."
+msgstr "Этот параметр обязателен."
+
+#: 
+msgid "This value must be numeric."
+msgstr "Это значение должно быть числовым."
+
+#: 
+msgid "This value must be at least "
+msgstr "Это значение должно быть по крайней мере, "
+
+#: 
+msgid "This value cannot be more than "
+msgstr "Это значение не может быть больше "
+
+#: 
+msgid " characters long"
+msgstr " символов"
+
+#: 
+msgid "This value cannot be less than "
+msgstr "Это значение не может быть меньше, чем "
+
+#: 
+msgid "Run Query Again"
+msgstr "Запустите запрос снова,"
+
+#: 
+msgid "Execute Query"
+msgstr "Выполнить запрос"
+
+#: 
+msgid "Please register your copy of ChurchCRM by checking over this information and pressing the Send button.  "
+msgstr "Пожалуйста, зарегистрируйтесь копию ChurchCRM, проверяя по этой информации и нажав на кнопку Отправить.  "
+
+#: 
+msgid "This information is used only to track the usage of this software.  "
+msgstr "Эта информация используется только для отслеживания использования данного программного обеспечения.  "
+
+#: 
+msgid "Send"
+msgstr "Отправить"
+
+#: 
+msgid "Pledge Reminder Report"
+msgstr "Залог Напоминание Сообщить"
+
+#: 
+msgid "All donations from this family have been moved to another family."
+msgstr "Все пожертвования от этой семьи были перемещены в другой семье."
+
+#: 
+msgid "Family Delete Confirmation"
+msgstr "Семья подтверждения удаления"
+
+#: 
+#, fuzzy
+msgid "Please confirm deletion of"
+msgstr "Пожалуйста, подтвердите удаление"
+
+#: 
+msgid "Sorry, there are records of donations from this family. This family may not be deleted."
+msgstr "К сожалению, есть записи пожертвований от этой семьи. Это семейство не может быть удален."
+
+#: 
+msgid "Return to Family View"
+msgstr "Вернуться в семьи Вид"
+
+#: 
+msgid "WARNING: This family has records of donations and may NOT be deleted until these donations are associated with another family."
+msgstr "ВНИМАНИЕ: Это семейство имеет записей пожертвований и не могут быть удалены, пока эти пожертвования не связаны с другой семьей."
+
+#: 
+msgid "Please select another family with whom to associate these donations:"
+msgstr "Пожалуйста, выберите другую семью с кем связать эти пожертвования:"
+
+#: 
+msgid "WARNING: This action can not be undone and may have legal implications!"
+msgstr "ПРЕДУПРЕЖДЕНИЕ: Это действие не может быть отменено, и может иметь правовые последствия!"
+
+#: 
+msgid "CURRENT FAMILY WITH DONATIONS"
+msgstr "Текущую группу с пожертвованиями"
+
+#: 
+msgid "Please confirm deletion of this family record:"
+msgstr "Пожалуйста, подтвердите удаление этой семьи записи:"
+
+#: 
+msgid "Note: This will also delete all Notes associated with this Family record."
+msgstr "Примечание: Это также удалить все заметки, связанные с этой семьей записи."
+
+#: 
+msgid "Delete Family Record ONLY"
+msgstr "Удалить семейные записи ТОЛЬКО"
+
+#: 
+msgid "Delete Family Record AND Family Members"
+msgstr "Удалить семейные записи и членов их семей"
+
+#: 
+msgid "My User Settings"
+msgstr "Мои настройки пользователя"
+
+#: 
+msgid "Variable name"
+msgstr "Имя переменной"
+
+#: 
+msgid "Current Value"
+msgstr "Текущая стоимость"
+
+#: 
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: 
+msgid "Default User Settings"
+msgstr "Настройки пользователя по умолчанию"
+
+#: 
+msgid "Set Permission True to give new users the ability to change their current value.<BR>"
+msgstr "Набор разрешений Правда, чтобы дать новым пользователям возможность изменять их текущее значение. <BR>"
+
+#: 
+msgid "Permission"
+msgstr "Разрешение"
+
+#: 
+msgid "Tax Report"
+msgstr "Налоговый отчет"
+
+#: 
+#, fuzzy
+msgid "Calendar Year"
+msgstr "Календарный год"
+
+#: 
+msgid "US Address Verification"
+msgstr "US Address Verification"
+
+#: 
+msgid "User Delete Confirmation"
+msgstr "Пользователь подтверждения удаления"
+
+#: 
+msgid "Please confirm removal of user status from:"
+msgstr "Пожалуйста, подтвердите удаление статуса пользователя от:"
+
+#: 
+msgid "User Editor"
+msgstr "Редактор Пользователь"
+
+#: 
+msgid "Note: Changes will not take effect until next logon."
+msgstr "Примечание: Изменения не вступят в силу до следующего входа в систему."
+
+#: 
+#, fuzzy
+msgid "Person to Make User"
+msgstr "Человек сделать Пользователь"
+
+#: 
+#, fuzzy
+msgid "User"
+msgstr "Пользователь"
+
+#: 
+#, fuzzy
+msgid "Login Name"
+msgstr "Войти Имя"
+
+#: 
+#, fuzzy
+msgid "Add Records"
+msgstr "Добавить записей"
+
+#: 
+#, fuzzy
+msgid "Edit Records"
+msgstr "Редактировать записи"
+
+#: 
+#, fuzzy
+msgid "Delete Records"
+msgstr "Удаление записей"
+
+#: 
+#, fuzzy
+msgid "Manage Properties and Classifications"
+msgstr "Управление свойства и классификации"
+
+#: 
+#, fuzzy
+msgid "Manage Groups and Roles"
+msgstr "Управление группами и ролями"
+
+#: 
+#, fuzzy
+msgid "Manage Donations and Finance"
+msgstr "Управление пожертвований и финансирование"
+
+#: 
+#, fuzzy
+msgid "View, Add and Edit Notes"
+msgstr "Просматривать, добавлять и редактировать записи"
+
+#: 
+#, fuzzy
+msgid "Edit Self"
+msgstr "Изменить себя"
+
+#: 
+msgid "(Edit own family only.)"
+msgstr "(Edit собственную семью только.)"
+
+#: 
+msgid "(Canvass volunteer.)"
+msgstr "(Canvass на общественных началах)."
+
+#: 
+msgid "(Grants all privileges.)"
+msgstr "(Гранты все права.)"
+
+#: 
+#, fuzzy
+msgid "Style"
+msgstr "Стиль"
+
+#: 
+msgid "User Listing"
+msgstr "Список пользователей"
+
+#: 
+msgid "Last Login"
+msgstr "Последняя Войти"
+
+#: 
+msgid "Total Logins"
+msgstr "Всего посещение"
+
+#: 
+msgid "Failed Logins"
+msgstr "Неудачных попыток"
+
+#: 
+msgid "You must enter the same password in both boxes"
+msgstr "Вы должны ввести тот же пароль в обоих полях"
+
+#: 
+msgid "Your password choice is too obvious. Please choose something else."
+msgstr "Ваш выбор Пароль слишком очевидный. Пожалуйста, выберите что-нибудь другое."
+
+#: 
+msgid "Your new password must be at least"
+msgstr "Ваш новый пароль должен состоять по крайней мере,"
+
+#: 
+msgid "characters"
+msgstr " символов"
+
+#: 
+msgid "Enter your current password, then your new password twice.  Passwords must be at least"
+msgstr "Введите текущий пароль, затем новый пароль дважды. Пароли должны быть по крайней мере,"
+
+#: 
+msgid "characters in length."
+msgstr "символов."
+
+#: 
+#, fuzzy
+msgid "Old Password"
+msgstr "Старый пароль"
+
+#: 
+#, fuzzy
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: 
+#, fuzzy
+msgid "Confirm New Password"
+msgstr "Подтвердите новый пароль"
+
+#: 
+#, fuzzy
+msgid "Please confirm the password reset of this user"
+msgstr "Пожалуйста, подтвердите сброс пароля этого пользователя"
+
+#: 
+msgid "Volunteer Opportunity Delete Confirmation"
+msgstr "Волонтер Возможность Подтверждение удаления"
+
+#: 
+msgid "There are people assigned to this Volunteer Opportunity."
+msgstr "Есть люди, назначенные для этого возможностей добровольцев."
+
+#: 
+msgid "Volunteer Opportunity will be unassigned for the following people."
+msgstr "Волонтер возможность будет не присвоены для следующих людей."
+
+#: 
+msgid "Yes, delete this Volunteer Opportunity"
+msgstr "Да, удалить эту возможность Добровольческую"
+
+#: 
+msgid "Volunteer Opportunity Editor"
+msgstr "Волонтер Возможность редактор"
+
+#: 
+msgid "No volunteer opportunities have been added yet"
+msgstr "Нет волонтеров не было добавлено еще"
+
+#: 
+msgid "Add New Opportunity"
+msgstr "Добавить новую возможность"
+
+#: 
+msgid "Why did you come to the church?"
+msgstr "Зачем ты пришел в церковь?"
+
+#: 
+msgid "Why do you keep coming?"
+msgstr "Почему вы продолжаете приходить?"
+
+#: 
+msgid "Do you have any suggestions for us?"
+msgstr "Есть ли у вас какие-либо предложения для нас?"
+
+#: 
+msgid "How did you learn of the church?"
+msgstr "Как вы узнали о церкви?"
+
+#: 
+msgid "Re-import to selected family"
+msgstr "Реимпорта к выбранному семьи"
+
+#: 
+msgid "Data import results: "
+msgstr "Результаты импорта данных: "
+
+#: 
+msgid " gifts were imported, "
+msgstr " Подарки были импортированы, "
+
+#: 
+msgid " gifts unchanged, and "
+msgstr " Подарки неизменным, и "
+
+#: 
+msgid " gifts not imported due to problems"
+msgstr " Подарки не импортируются из-за проблем"
+
+#: 
+msgid "Back to Deposit Slip"
+msgstr "Вернуться к квитанции"
+
+#: 
+msgid "Fatal error in eGive API datastream: '"
+msgstr "Фатальная ошибка в eGive API потока данных: '"
+
+#: 
+msgid "eMail Dashboard"
+msgstr "Email Панель Управления"
+
+#: 
+msgid "No families need canvassers assigned"
+msgstr "Нет семьи не должны агитаторов, назначенные"
+
+#: 
+msgid "Canvassers assigned at random to %d families."
+msgstr "Агитаторов, назначенные наугад %d семей."
+
+#: 
+msgid "Canvassers assigned at random to %d non-pledging families."
+msgstr "Агитаторов, назначенные наугад %d не-залог семей."
+
+#: 
+msgid "Assigned envelope numbers to all families with at least one member."
+msgstr "Assigned Numbers конверт для всех семей, по крайней мере одним членом."
+
+#: 
+msgid "Assigned envelope numbers to all families."
+msgstr "Assigned Numbers конверт для всех семей."
+
+#: 
+msgid "True / False"
+msgstr "Верно / Неверно"
+
+#: 
+msgid "Text Field (50 char)"
+msgstr "Текстовое поле (50 символов)"
+
+#: 
+msgid "Text Field (100 char)"
+msgstr "Текстовое поле (100 символов)"
+
+#: 
+msgid "Text Field (long)"
+msgstr "Текстовое поле (длинный)"
+
+#: 
+msgid "Season"
+msgstr "Сезон"
+
+#: 
+msgid "Person from Group"
+msgstr "Человек из группы"
+
+#: 
+msgid "Money"
+msgstr "Деньги"
+
+#: 
+msgid "Phone Number"
+msgstr "Номер Телефона"
+
+#: 
+msgid "Custom Drop-Down List"
+msgstr "Пользовательские раскрывающемся списке"
+
+#: 
+msgid "Group successfully added to the Cart."
+msgstr "Группа успешно добавлен в корзину."
+
+#: 
+msgid "Group successfully removed from the Cart."
+msgstr "Группа успешно удален из корзины."
+
+#: 
+msgid "Selected record successfully removed from the Cart."
+msgstr "Выбранная запись успешно удалены из корзины."
+
+#: 
+#, fuzzy
+msgid "Your cart has been successfully emptied"
+msgstr "Ваша корзина успешно очищена"
+
+#: 
+msgid "item(s) added to the Cart."
+msgstr "товар (ов) добавлен в корзину."
+
+#: 
+msgid "Select Fiscal Year"
+msgstr "Выберите финансовый год"
+
+#: 
+msgid "pm"
+msgstr "вечера"
+
+#: 
+msgid "Invalid Editor ID!"
+msgstr "Неверный редактор ID!"
+
+#: 
+msgid "Select Season"
+msgstr "Выберите сезон"
+
+#: 
+msgid "Winter"
+msgstr "Зима"
+
+#: 
+msgid "Spring"
+msgstr "Весна"
+
+#: 
+msgid "Summer"
+msgstr "Лето"
+
+#: 
+msgid "Fall"
+msgstr "слабость"
+
+#: 
+msgid "Error: Invalid Editor ID!"
+msgstr "Ошибка: Неправильно редактор ID!"
+
+#: 
+msgid "Not a valid date"
+msgstr "Не действует дата"
+
+#: 
+msgid "Invalid Year"
+msgstr "Неверный год"
+
+#: 
+msgid "Out of range: Allowable values are 1901 to 2155"
+msgstr "Вне диапазона: Допустимые значения от 1901 до 2155"
+
+#: 
+msgid "Invalid Number"
+msgstr "Неверный номер"
+
+#: 
+msgid "Number too large. Must be between -2147483648 and 2147483647"
+msgstr "Слишком большое число. Должно быть между -2147483648 и 2147483647"
+
+#: 
+msgid "Money amount too large. Maximum is $999999999.99"
+msgstr "Деньги количество слишком велико. Максимум $ 999999999,99"
+
+#: 
+msgid " Bold Italic"
+msgstr " Полужирный курсив"
+
+#: 
+msgid " Italic"
+msgstr " Курсив"
+
+#: 
+msgid " Bold"
+msgstr " Жирный"
+
+#: 
+msgid "Dashboard"
+msgstr "Панель Управления"
+
+#: 
+#, fuzzy
+msgid "Font"
+msgstr "Шрифт"
+
+#: 
+#, fuzzy
+msgid "Label Type"
+msgstr "Этикетка Тип"
+
+#: 
+msgid "Label Grouping"
+msgstr "Этикетка Группировка"
+
+#: 
+msgid "All Individuals"
+msgstr "Все лица"
+
+#: 
+msgid "Grouped by Family"
+msgstr "Группировка по делам семьи"
+
+#: 
+#, fuzzy
+msgid "To the parents of"
+msgstr "Для родителей"
+
+#: 
+#, fuzzy
+msgid "Start Row"
+msgstr "Начните строку"
+
+#: 
+#, fuzzy
+msgid "Start Column"
+msgstr "Начните Колонка"
+
+#: 
+#, fuzzy
+msgid "Ignore Incomplete<br>Addresses"
+msgstr "Игнорировать Неполное <br> адресам"
+
+#: 
+#, fuzzy
+msgid "File Type"
+msgstr "Тип Файла"
+
+#: 
+msgid "items"
+msgstr "Предметы"
+
+#: 
+msgid "Did not pledge"
+msgstr "Не обещаем"
+
+#: 
+msgid "Top pledger"
+msgstr "Топ залогодатель"
+
+#: 
+msgid "Pledged"
+msgstr "Заложенные"
+
+#: 
+msgid "M/F"
+msgstr "M / F"
+
+#: 
+msgid "Liaison"
+msgstr "Связь"
+
+#: 
+msgid "City, State, Zip"
+msgstr "Город, Район, Страна"
+
+#: 
+msgid "Send Newsletter"
+msgstr "Отправить бюллетень"
+
+#: 
+msgid "Member Name"
+msgstr "Имя Пользователя"
+
+#: 
+msgid "Adult/Child"
+msgstr "Взрослый / ребенок"
+
+#: 
+#, fuzzy
+msgid "Cell Phone"
+msgstr "Мобильный телефон"
+
+#: 
+msgid "Member/Friend"
+msgstr "Участник / другу"
+
+#: 
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
+msgstr "Эта опция требует, по крайней мере, версия 3.22 MySQL! Хит-браузер кнопку назад, чтобы вернуться к ChurchCRM."
+
+#: 
+msgid "Work"
+msgstr "Работа"
+
+#: 
+msgid "Cell"
+msgstr "Ячейка"
+
+#: 
+msgid "Estimated value "
+msgstr "Расчетная стоимость "
+
+#: 
+msgid "Donated by "
+msgstr "Досталось от "
+
+#: 
+msgid "Paddle"
+msgstr "Лопасть"
+
+#: 
+msgid "Bid"
+msgstr "Заявка"
+
+#: 
+msgid "Minimum bid "
+msgstr "Минимальная ставка "
+
+#: 
+msgid "All Funds"
+msgstr "Все средства,"
+
+#: 
+msgid " for all funds"
+msgstr " для всех средств"
+
+#: 
+msgid " for fund "
+msgstr " для фонда "
+
+#: 
+msgid "for funds "
+msgstr "для фондов "
+
+#: 
+msgid "Donated Items:"
+msgstr "Предоставленной продукции:"
+
+#: 
+msgid "Purchased Items:"
+msgstr "Приобретенные товары:"
+
+#: 
+msgid "Total of all purchases: $"
+msgstr "Сумма всех покупок: $"
+
+#: 
+msgid "Total purchases: $"
+msgstr "Всего покупок: $"
+
+#: 
+msgid "Amount paid: ________________"
+msgstr "Сумма, выплаченная: ________________"
+
+#: 
+msgid "Paid by (  ) Cash    (  ) Check    (  ) Credit card __ __ __ __    __ __ __ __    __ __ __ __    __ __ __ __  Exp __ / __"
+msgstr "Оплачивается () денежных средств () Выезд () Кредитная карточка __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ Exp / __"
+
+#: 
+msgid "                                        Signature ________________________________________________________________"
+msgstr "                                        Подпись ________________________________________________________________"
+
+#: 
+msgid "Totals"
+msgstr "Всего:"
+
+#: 
+msgid "Certificate of Ownership"
+msgstr "Свидетельство о собственности"
+
+#: 
+msgid "Directory"
+msgstr "Каталог"
+
+#: 
+msgid "Page"
+msgstr "Страницы"
+
+#: 
+msgid "Wedding"
+msgstr "Свадьба"
+
+#: 
+msgid "and"
+msgstr "и"
+
+#: 
+msgid "Group Directory"
+msgstr "Группа справочник"
+
+#: 
+msgid "Please detach this slip and mail with your next gift."
+msgstr "Пожалуйста, отсоединить этот бланк и почты с вашего следующего подарка."
+
+#: 
+msgid "Please mail you next gift to "
+msgstr "Пожалуйста, напишите Вас в следующий подарок "
+
+#: 
+msgid "Gift Amount:"
+msgstr "Подарок Сумма:"
+
+#: 
+msgid "Gift Designation:"
+msgstr "Подарок Обозначение:"
+
+#: 
+msgid "Sunday School Dashboard"
+msgstr "Панель Управления Воскресная Школы"
+
+#: 
+msgid "Sunday School Reports"
+msgstr "Воскресная школа Отчеты"
+
+#: 
+msgid "Generate class lists and attendance sheets"
+msgstr "Создание списков классов и посещаемости листы"
+
+#: 
+msgid "At least one group must be selected to make class lists or attendance sheets."
+msgstr "По крайней мере, одна группа должна быть выбрана, чтобы сделать списки классов или посещения листов."
+
+#: 
+#, fuzzy
+msgid "First Sunday"
+msgstr "Первое воскресенье"
+
+#: 
+#, fuzzy
+msgid "Last Sunday"
+msgstr "Последнее воскресенье"
+
+#: 
+#, fuzzy
+msgid "No Sunday School"
+msgstr "Нет Воскресная школа"
+
+#: 
+#, fuzzy
+msgid "Extra Students"
+msgstr "Дополнительные Студенты"
+
+#: 
+#, fuzzy
+msgid "Extra Teachers"
+msgstr "Дополнительные Преподаватели"
+
+#: 
+msgid "Create Class List"
+msgstr "Создать список классов"
+
+#: 
+msgid "Create Attendance Sheet"
+msgstr "Создать посещаемости лист"
+
+#: 
+msgid "People Dashboard"
+msgstr "Панель Управления Людей"
+
+#: 
+msgid "return to People Dashboard"
+msgstr "Вернутся к Панели Управления Людьми"
+
+#: 
+msgid "Generate Backup"
+msgstr "Создать резервную копию."
+
+#: 
+msgid "Password (if any)"
+msgstr "Пароль, если есть."
+
+#: 
+msgid "All information on this page is correct."
+msgstr "На этой странице все верно."
+
+#: 
+msgid "Please update the my family information with the following"
+msgstr "Пожалуйтса обновите информацию об моей семье."
+
+#: 
+msgid "People Verify Dashboard"
+msgstr "Панель Управления для верификации личности"
+
+#: 
+msgid "Verification URL created"
+msgstr "Верифицированный URL создан."
+
+#: 
+msgid "URL"
+msgstr "URL"
+
+#: 
+msgid "PDF"
+msgstr "PDF"
+
+#: 
+msgid "Error sending email(s)"
+msgstr "Ошибка при отправке почты."
+
+#: 
+msgid "Please check logs for more information"
+msgstr "Для большей информации обратитесь к логам. "
+
+#: 
+msgid "Verification URL"
+msgstr "Верификация URL"
+

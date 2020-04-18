@@ -1,0 +1,19 @@
+[2020-04-18 00:23:47] defaultLogger.INFO: Signature file found at: C:\xampp\htdocs\churchcrm\setup/..//signatures.json [] {"url":"/churchcrm/setup/SystemIntegrityCheck","remote_ip":"::1","correlation_id":"5e9a2c73e16fe"}
+[2020-04-18 00:25:13] defaultLogger.ERROR: ERROR connecting to database at 'localhost' on port 'Unix socket' as user 'root' -  MySQL Error: 'Access denied for user 'root'@'localhost' (using password: YES)' [] {"url":"/churchcrm/","remote_ip":"::1","correlation_id":"5e9a2cc9adff0"}
+[2020-04-18 00:25:49] defaultLogger.ERROR: ERROR connecting to database at 'localhost' on port 'Unix socket' as user 'root' -  MySQL Error: 'Access denied for user 'root'@'localhost' (using password: YES)' [] {"url":"/churchcrm/","remote_ip":"::1","correlation_id":"5e9a2cedac4b8"}
+[2020-04-18 00:53:08] defaultLogger.ERROR: ERROR connecting to database at 'localhost' on port 'Unix socket' as user 'admin' -  MySQL Error: 'Access denied for user 'admin'@'localhost' (using password: YES)' [] {"url":"/churchcrm/","remote_ip":"::1","correlation_id":"5e9a33542f480"}
+[2020-04-17 18:54:06] defaultLogger.INFO: Database is not current, redirecting to SystemDBUpdate [] {"url":"/churchcrm/","remote_ip":"::1","correlation_id":"5e9a338e7a2c6"}
+[2020-04-18 03:05:58] defaultLogger.INFO: Database is not current, redirecting to SystemDBUpdate [] {"url":"/","remote_ip":"127.0.0.1","correlation_id":"5e9aa6d6494b2"}
+[2020-04-18 03:05:59] defaultLogger.INFO: Database is not current, redirecting to SystemDBUpdate [] {"url":"/api/system/background/csp-report","remote_ip":"127.0.0.1","correlation_id":"5e9aa6d76e9d2"}
+[2020-04-18 03:06:08] defaultLogger.INFO: Beginning database upgrade [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e08f82d"}
+[2020-04-18 03:06:08] defaultLogger.INFO: Current Version:  [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e08f82d"}
+[2020-04-18 03:06:08] defaultLogger.WARNING: No upgrade path for  to 4.0.3 [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e08f82d"}
+[2020-04-18 03:06:08] defaultLogger.INFO: Complete database upgrade; redirecting to Main menu [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e08f82d"}
+[2020-04-18 03:06:08] defaultLogger.INFO: Database is not current, redirecting to SystemDBUpdate [] {"url":"/Menu.php","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e0b8a65"}
+[2020-04-18 03:06:09] defaultLogger.INFO: Database is not current, redirecting to SystemDBUpdate [] {"url":"/api/system/background/csp-report","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e179654"}
+[2020-04-18 03:06:17] defaultLogger.INFO: Beginning database upgrade [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e939f53"}
+[2020-04-18 03:06:17] defaultLogger.INFO: Current Version:  [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e939f53"}
+[2020-04-18 03:06:17] defaultLogger.WARNING: No upgrade path for  to 4.0.3 [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e939f53"}
+[2020-04-18 03:06:17] defaultLogger.INFO: Complete database upgrade; redirecting to Main menu [] {"url":"/SystemDBUpdate.php?upgrade=true","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e939f53"}
+[2020-04-18 03:06:17] defaultLogger.INFO: Database is not current, redirecting to SystemDBUpdate [] {"url":"/Menu.php","remote_ip":"127.0.0.1","correlation_id":"5e9aa6e960ee9"}
+[2020-04-18 03:06:18] defaultLogger.INFO: Database is not current, redirecting to SystemDBUpdate [] {"url":"/api/system/background/csp-report","remote_ip":"127.0.0.1","correlation_id":"5e9aa6ea29913"}

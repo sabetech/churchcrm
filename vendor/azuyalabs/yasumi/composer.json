@@ -1,0 +1,48 @@
+{
+  "name": "azuyalabs/yasumi",
+  "description": "Yasumi is an easy PHP Library for calculating national holidays.",
+  "keywords": [
+    "holiday",
+    "holidays",
+    "calendar",
+    "calculation",
+    "celebration",
+    "date",
+    "time",
+    "bank",
+    "national"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sacha Telgenhof",
+      "email": "me@sachatelgenhof.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.6",
+    "fzaninotto/faker": "~1.7",
+    "mikey179/vfsStream": "~1.6",
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yasumi\\": "src/Yasumi/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Yasumi\\tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "php-cs-fixer": "./vendor/bin/php-cs-fixer fix .",
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
