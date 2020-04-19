@@ -11,7 +11,7 @@ require SystemURLs::getDocumentRoot() . '/Include/HeaderNotLoggedIn.php';
 ?>
 <div class="login-box" id="Login">
     <div class="login-logo">
-        Church<b>CRM</b>
+        Anagkazo<b>Data</b>
     </div>
 
     <!-- /.login-logo -->
