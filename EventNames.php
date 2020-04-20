@@ -232,7 +232,7 @@ if (InputUtils::LegacyFilterInput($_POST['Action']) == 'NEW') {
           </div>
           <div class='col-sm-6'>
             <select class="form-control" name="newEvtStartTime">
-              <?php createTimeDropdown(7, 22, 15, '', ''); ?>
+              <?php createTimeDropdown(1, 23, 15, '', ''); ?>
             </select>
           </div>
         </div>
