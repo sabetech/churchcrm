@@ -12,7 +12,7 @@
 
     echo "Importing People ..." . PHP_EOL;
     
-    $path  = realpath('ChurchCRM/custom_file_store/Importing_Wacenta_People_OP_August_2020.csv');
+    $path  = realpath('custom_file_store/Importing_Wacenta_People_OP_August_2020.csv');
     
     echo "Full Path {$path}" . PHP_EOL;
 
