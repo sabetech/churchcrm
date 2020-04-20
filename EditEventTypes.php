@@ -147,7 +147,7 @@ if ($numCounts) {
     </td>
     <td class="TextColumn" width="50%">
       <select class='form-control' name="newEvtStartTime" size="1" onchange="javascript:$('#newEvtStartTimeSubmit').click()">
-        <?php createTimeDropdown(7, 18, 15, $aEventStartHour, $aEventStartMins); ?>
+        <?php createTimeDropdown(1, 23, 15, $aEventStartHour, $aEventStartMins); ?>
       </select>
       <button class='hidden' type="submit" name="Action" value="TIME" id="newEvtStartTimeSubmit"></button>
     </td>
