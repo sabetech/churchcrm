@@ -2,7 +2,7 @@
     //this script is read f file from a custom folder: ChurchCRM/custom_file_store and then populate the db ...
 
     function executeSQLQuery($sSQL){
-        $mysqli = new mysqli("localhost","learninglinks_user","learninglinks","church_crm");
+        $mysqli = new mysqli("localhost","root","blender3D","church_crm");
         
         if ($result = $mysqli -> query($sSQL)) {
             $mysqli->close();
@@ -146,6 +146,7 @@
             return $row[0];
         }
 
+
         function getLatestLstID(){
             $sSQL = "SELECT MAX(`lst_ID`) FROM list_lst";
             $result = executeSQLQuery($sSQL);
@@ -155,3 +156,4 @@
         }
 
 ?>
+

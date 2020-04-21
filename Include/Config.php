@@ -10,8 +10,8 @@
 // Database connection constants
 $sSERVERNAME = 'localhost';
 $dbPort = '3306';
-$sUSER = 'learninglinks_user';
-$sPASSWORD = 'learninglinks';
+$sUSER = 'root';
+$sPASSWORD = 'blender3D';
 $sDATABASE = 'church_crm';
 #$TwoFASecretKey = 'ChangeThisToASecureRandomStringBeforeUse';
 
@@ -33,7 +33,7 @@ $bLockURL = FALSE;
 
 // URL[0] is the URL that you prefer most users use when they
 // log in.  These are case sensitive.
-$URL[0] = 'http://anagkazo_data.local/';
+$URL[0] = 'http://www.firstlovegallery.com/';
 // List as many other URL's as may be needed. Number them sequentially.
 //$URL[1] = 'https://www.mychurch.org/churchcrm/';
 //$URL[2] = 'https://www.mychurch.org:8080/churchcrm/';
