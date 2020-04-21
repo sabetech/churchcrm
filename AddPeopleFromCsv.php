@@ -66,7 +66,7 @@
                                                               `grp_include_email_export`)
                                                   VALUES (
                                                         1, 
-                                                        '$latestLst_ID'
+                                                        '$latestLst_ID',
                                                         1, 
                                                         '$_groupName',
                                                         'Wacenta Group For $data[0]',
