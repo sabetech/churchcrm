@@ -57,7 +57,7 @@
                     
                     $latestLst_ID = getLatestLstID();
                     $insertGroupSQL = "INSERT INTO group_grp (`grp_Type`, 
-                                                              `grp_RoleListID`
+                                                              `grp_RoleListID`,
                                                               `grp_DefaultRole`, 
                                                               `grp_Name`,
                                                               `grp_Description`,
