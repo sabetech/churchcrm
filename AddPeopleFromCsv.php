@@ -38,21 +38,42 @@
                 $per_LastName = isset($names[1]) ? $names[1] : "";
                 $_groupName = trim($data[0]).'_Wacenta';
 
+                
+
                 if ($saveWacentaLeader){
+                    $newLstID = getLatestLstID() + 1;
+                    $insertList_lstSQL = "INSERT INTO list_lst (`lst_ID`,
+                                                                `lst_OptionID`,
+                                                                `lst_OptionSequence`,
+                                                                `lst_OptionName`) 
+                                                        VALUES (
+                                                            $newLstID,
+                                                            1,
+                                                            1,
+                                                            'Member'
+                                                        )";
+
+                    executeSQLQuery($insertList_lstSQL);
+                    
+                    $latestLst_ID = getLatestLstID();
                     $insertGroupSQL = "INSERT INTO group_grp (`grp_Type`, 
+                                                              `grp_RoleListID`
                                                               `grp_DefaultRole`, 
                                                               `grp_Name`,
                                                               `grp_Description`,
                                                               `grp_hasSpecialProps`,
                                                               `grp_active`,
                                                               `grp_include_email_export`)
-                                                  VALUES (2, 
-                                                          1, 
-                                                          '$_groupName',
-                                                          'Wacenta Group For $data[0]',
-                                                          0,
-                                                          1,
-                                                          1)";
+                                                  VALUES (
+                                                        1, 
+                                                        '$latestLst_ID'
+                                                        1, 
+                                                        '$_groupName',
+                                                        'Wacenta Group For $data[0]',
+                                                        0,
+                                                        1,  
+                                                        1
+                                                        )";
 
                     echo "Wacenta Leader detected {$data[0]} " . PHP_EOL;
                     
@@ -125,4 +146,14 @@
             return $row[0];
         }
 
+
+        function getLatestLstID(){
+            $sSQL = "SELECT MAX(`lst_ID`) FROM list_lst";
+            $result = executeSQLQuery($sSQL);
+            // Numeric array
+            $row = $result -> fetch_array(MYSQLI_NUM);
+            return $row[0];
+        }
+
 ?>
+
