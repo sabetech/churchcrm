@@ -75,7 +75,7 @@
                 executeSQLQuery($insertGroupSQL);
 
                 $countWacentaLeaders++;
-                $saveWacentaLeader = false;
+                
 
                 $per_Title = "Wacenta Leader";
 
@@ -100,7 +100,9 @@
 
             //assign person to group ...
             createPersonGroupRelation((($saveWacentaLeader) ? 2:1), $_currentGroupID);
-
+            if ($saveWacentaLeader){
+                $saveWacentaLeader = false;
+            }
         }
         
         echo "Wacenta Leader Count {$countWacentaLeaders}";
