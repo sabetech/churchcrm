@@ -137,7 +137,7 @@ if (SystemConfig::getBooleanValue("bEnableSelfRegistration")) {
 </div>
 <!-- Small boxes (Stat box) -->
 <div class="row">
-  <div class="col-lg-3 col-md-6 col-sm-6">
+  <div class="col-lg-3 col-md-6 col-sm-6" style="display:none;">
     <!-- small box -->
     <div class="small-box bg-aqua">
       <div class="inner">
@@ -190,7 +190,7 @@ if (SystemConfig::getBooleanValue("bEnableSelfRegistration")) {
         </h3>
 
         <p>
-          <?= gettext('Sunday School Kids') ?>
+          <?= gettext('Lay School Attendants') ?>
         </p>
       </div>
       <div class="icon">
@@ -213,7 +213,7 @@ if (SystemConfig::getBooleanValue("bEnableSelfRegistration")) {
         </h3>
 
         <p>
-          <?= gettext('Groups') ?>
+          <?= gettext('Wacentas') ?>
         </p>
       </div>
       <div class="icon">

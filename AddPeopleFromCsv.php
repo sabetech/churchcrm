@@ -160,7 +160,7 @@
                                             VALUES (
                                                 $newLstID,
                                                 1,
-                                                1,
+                                                2,
                                                 'Member'
                                             ),(
                                                 $newLstID,

@@ -162,25 +162,7 @@ if ($showBanner && ($peopleWithBirthDaysCount > 0 || $AnniversariesCount > 0)) {
 
 <!-- Small boxes (Stat box) -->
 <div class="row">
-    <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-aqua">
-            <div class="inner">
-                <h3 id="familyCountDashboard">
-                    0
-                </h3>
-                <p>
-                    <?= gettext('Families') ?>
-                </p>
-            </div>
-            <div class="icon">
-                <i class="fa fa-users"></i>
-            </div>
-            <a href="<?= SystemURLs::getRootPath() ?>/v2/family" class="small-box-footer">
-                <?= gettext('See all Families') ?> <i class="fa fa-arrow-circle-right"></i>
-            </a>
-        </div>
-    </div><!-- ./col -->
+    
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
         <div class="small-box bg-green">
@@ -210,7 +192,7 @@ if ($showBanner && ($peopleWithBirthDaysCount > 0 || $AnniversariesCount > 0)) {
                    0
                 </h3>
                 <p>
-                    <?= gettext('Sunday School Classes') ?>
+                    <?= gettext('Layschool School Classes') ?>
                 </p>
             </div>
             <div class="icon">
@@ -231,7 +213,7 @@ if ($showBanner && ($peopleWithBirthDaysCount > 0 || $AnniversariesCount > 0)) {
                   0
                 </h3>
                 <p>
-                    <?= gettext('Groups') ?>
+                    <?= gettext('Wacentas') ?>
                 </p>
             </div>
             <div class="icon">
@@ -267,6 +249,7 @@ if ($showBanner && ($peopleWithBirthDaysCount > 0 || $AnniversariesCount > 0)) {
             </a>
         </div>
     </div><!-- ./col -->
+    
 </div><!-- /.row -->
 
 <?php
@@ -292,7 +275,7 @@ if ($depositData) { // If the user has Finance permissions, then let's display t
                   }  //END IF block for Finance permissions to include HTML for Deposit Chart
 ?>
 
-<div class="row">
+<div class="row" style="display:none;">
     <div class="col-lg-6">
         <div class="box box-solid">
             <div class="box-header">
