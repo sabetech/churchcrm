@@ -165,7 +165,7 @@
                                             ),(
                                                 $newLstID,
                                                 1,
-                                                1,
+                                                2,
                                                 'Wacenta Leader'
                                             )";
 
