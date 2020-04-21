@@ -2,7 +2,7 @@
 use ChurchCRM\dto\SystemURLs;
 
 ?>
-<title>ChurchCRM: <?= $sPageTitle ?></title>
+<title>Anagkazo Data: <?= $sPageTitle ?></title>
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" type="text/css"
