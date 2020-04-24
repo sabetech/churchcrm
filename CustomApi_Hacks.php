@@ -19,7 +19,7 @@
 
 //this page is for custom api hacks with no need for authentication ...
 function executeSQLQuery($sSQL){
-    $mysqli = new mysqli("localhost","root","blender3D","blender3D");
+    $mysqli = new mysqli("localhost","root","blender3D","church_crm");
     
     if ($result = $mysqli -> query($sSQL)) {
         $mysqli->close();
