@@ -19,7 +19,7 @@
 
 //this page is for custom api hacks with no need for authentication ...
 function executeSQLQuery($sSQL){
-    $mysqli = new mysqli("localhost","churchcrm","blender3D","churchcrm");
+    $mysqli = new mysqli("localhost","root","blender3D","blender3D");
     
     if ($result = $mysqli -> query($sSQL)) {
         $mysqli->close();
@@ -74,7 +74,7 @@ if (isset($_POST['save_attendance'])){
     var_dump($_POST);
 
     //save attendance data here ..
-    
+
 
 }
     
